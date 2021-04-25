@@ -19,12 +19,23 @@ collections:
     fields:
         - { label: 'title', name: 'title', widget: 'string' }
         - { label: 'content', name: 'content', widget: 'markdown' }
-  # - name: 'navbar'
-  #   label: 'Nav links'
-  #   files: 
-  #       - label: 'Content'
-  #         name: 'content'
-  #         file: "site/content/navbar.json"
-  #         fields:
-  #           - { label: 'title', name: 'title', widget: 'string' }
-  #           - { label: 'slug', name: 'slug', widget: 'string' }
+  - name: 'contact'
+    label: 'Contact Page'
+    files: 
+        - label: 'Content'
+          name: 'content'
+          file: "site/content/navbar.json"
+          fields:
+            - { label: 'title', name: 'title', widget: 'string' }
+            - { label: 'slug', name: 'slug', widget: 'string' }
+            - { label: 'heading-one', name: 'heading-one', widget: 'text' }
+            - { label: 'para-one', name: 'para-one', widget: 'text' }
+            - { label: 'heading-two', name: 'heading-two', widget: 'text' }
+            - { label: 'heading-three', name: 'heading-three', widget: 'text' }
+            - { label: 'para-one', name: 'para-one', widget: 'text' }
+            - { label: 'para-two', name: 'para-two', widget: 'text' }
+            - { label: 'para-three', name: 'para-three', widget: 'text' }
+            - { label: 'para-four', name: 'para-four', widget: 'text' }
+            - { label: 'para-five', name: 'para-five', widget: 'text' }
+            - { label: 'para-six', name: 'para-six', widget: 'text' }
+            - { label: 'para-seven', name: 'para-seven', widget: 'text' }

@@ -11,8 +11,8 @@ const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
   
   return (
-    <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
+    <Layout>
+      <Seo title="Home" />
       <header className="main-header">
           <div className="nav">
               <nav id="navBar" className="navbar fixed-top navbar-expand-lg main-nav">
@@ -30,9 +30,9 @@ const BlogIndex = ({ data, location }) => {
                         <li>
                             <Link to="/about/">ABOUT</Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link to="/portfolio/">PORTFOLIO</Link>
-                        </li>
+                        </li> */}
                         <li>
                             <a href="https://jobs.lever.co/panteracapital">jobs</a>
                         </li>
@@ -127,7 +127,7 @@ const BlogIndex = ({ data, location }) => {
                           </div> */}
                           <input type="text" className="form-control btn-one" placeholder="Get product updates"
                               aria-label="Username" aria-describedby="basic-addon1" />
-                          <button className="btn btn-secondary btn-two"><img src={'ic Arrow Go.png'} alt /></button>
+                          <button className="btn btn-secondary btn-two"><img src={'ic Arrow Go.png'} alt="logo"/></button>
                       </div>
                   </div>
               </div>
@@ -139,38 +139,6 @@ const BlogIndex = ({ data, location }) => {
               </div>
           </div>
       </footer>
-      {/* <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-          
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-                >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                    />
-                </section>
-              </article>
-            </li>
-          )
-        })}
-      </ol> */}
     </Layout>
   )
 }
