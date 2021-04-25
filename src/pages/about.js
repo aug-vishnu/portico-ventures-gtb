@@ -3,6 +3,7 @@ import { Link, } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Content from '../../site/content/navbar.json'
 
 const About = () => {
   return (
@@ -42,21 +43,20 @@ const About = () => {
             {/* Section Home Starts */}
             <div id="content-part" className="container mt-5">
                 {/* <h2 class="text-uppercase mb-3">about portico </h2> */}
-                <h1>We at Portico believe in empowering the growth and success of startups in the crypto assets and the blockchain industry that show great potential to become the pioneers of tomorrow.</h1>
-                <p>We are a team of investors who have played an active role in the blockchain space over the better half of the last decade. We formed Portico ventures with a vision. That vision was to prepare founders of startups in the crypto industry for the challenges they will face building their business in an ever-changing market.
-                </p>
+                <h1>{Content["heading-one"]}</h1>
+                <p>{Content["para-one"]}</p>
             </div>
             <hr />
             <div id="content-part" className="pt-2 container">
-                <h2 className="vent text-uppercase mb-3">How does Portico serve startups? </h2>
-                <h1 className="vent">Portico is committed to being a one-stop support system for capable cryptoassets and blockchain development startups. With a dedicated team full of experienced players in the industry, we are every crypto startup’s dream investors.</h1>
-                <p className="vent">We teach startups how to stand out in the market and develop their own identity.Our technical team consists of a professional solidity auditor and advisor who has won the prestigious Binance API competition. We also have a professional substrate and Polkadot developer on board who can advice, consult, audit and review startups and their business model to provide valuable feedback for their business. </p>
-                <p className="vent">For Legal assistance and advisement, we have a global venture capital lawyer who has worked for top tier crypto hedge funds and venture capitalists and can provide tax advice with ease. </p>
-                <p className="vent">Each of our startups gets access to our blockchain experts who can help them build on traditional finance concepts on blockchain such as interest rate swaps, credit default swaps, and derivatives and help further understand the dynamics of institutional and retail investors, governance models, NFTs and market sentiment, tokenomics and DeFi concepts, specifically: farming, emission rates and balancing. With a solid foundation of these, we allow startups to work on their initial idea and transform it into a business that is ready for the market.
-                </p>
-                <p className="vent">We at Portico empower the growth of startups we have invested in, we assess if a startup fits in with the market and help them finesse their development processes. Most importantly, we give every one of our startups' access to our extensive network in the industry allowing them to connect with portfolio companies, market makers, and notable founders/ investors.
-                </p>
-                <p className="vent">Crypto is a space that is about to peak in the next decade; we at Portico are helping the industry achieve that. We at Portico pave the way for the future of crypto and take it to the next level with one startup at a time.</p>
+                <h2 className="vent text-uppercase mb-3">{Content["heading-two"]}</h2>
+                <h1 className="vent">{Content["heading-three"]}</h1>
+                <p className="vent">{Content["para-one"]}</p>
+                <p className="vent">{Content["para-two"]}</p>
+                <p className="vent">{Content["para-three"]}</p>
+                <p className="vent">{Content["para-four"]}</p>
+                <p className="vent">{Content["para-five"]}</p>
+                <p className="vent">{Content["para-six"]}</p>
+                {/* <p className="vent">{Content["para-seven"]}</p> */}
             </div>
             {/* Section Home Ends */}
             </div>
