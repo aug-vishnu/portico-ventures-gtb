@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import '../pages/assets/main.js'
+import './main.js'
 
 const Layout = ({ location, title, children }) => {
 
