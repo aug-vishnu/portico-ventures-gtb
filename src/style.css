@@ -1030,10 +1030,10 @@ footer .footer-bottom-index {
     padding: 80px 0;
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     .page-wrapper {
         flex-direction: column;
     }
-}
+} */
 
 /*# sourceMappingURL=style.css.map */

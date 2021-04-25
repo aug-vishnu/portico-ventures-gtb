@@ -8,7 +8,7 @@ public_folder: /img
 collections:
   - name: 'contact'
     label: 'Contact Page'
-    folder: 'content/contact-page'
+    folder: 'content/contact'
     create: true
     slug: 'contact'
     media_folder: ''
