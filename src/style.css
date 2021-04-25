@@ -609,7 +609,7 @@ footer .footer-bottom-index {
 
     /*header starts*/
     header {
-        zoom: 2;
+        zoom: 1;
     }
 
     header .banner {
@@ -631,6 +631,11 @@ footer .footer-bottom-index {
 
     .hero-section #content-part {
         width: 80%;
+    }
+
+    .hero-section #content-part h1 {
+        line-height: 1.4em;
+        font-size: 2.5em;
     }
 
     .custom-modal {
@@ -761,7 +766,7 @@ footer .footer-bottom-index {
 
     footer {
         padding: 0;
-        zoom: 2;
+        zoom: 0.9;
     }
 
     footer .footer-top {
