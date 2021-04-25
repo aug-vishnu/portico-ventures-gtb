@@ -66,7 +66,7 @@ const About = () => {
             <div className="part-one">
                 <div className="footer-logo mt-2"> <img src={'/logo_b.png'} alt="portico_ventures" />
                 </div>
-                <div className="footer-number mt-2">+xx-xxxxx-xxxx</div>
+                {/* <div className="footer-number mt-2">+xx-xxxxx-xxxx</div> */}
                 <div className="footer-mail mt-2">support@portico.com</div>
             </div>
             {/* <div class="part-two">

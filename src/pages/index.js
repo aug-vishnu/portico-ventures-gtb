@@ -83,7 +83,7 @@ const BlogIndex = ({ data, location }) => {
               <div className="part-one col-lg-4">
                   <div className="footer-logo mt-2"> <img src={'logo_b.png'} alt="portico_ventures" />
                   </div>
-                  <div className="footer-number mt-2">+xx-xxxxx-xxxx</div>
+                  {/* <div className="footer-number mt-2">+xx-xxxxx-xxxx</div> */} 
                   <div className="footer-mail mt-2">support@portico.com</div>
               </div>
               <div className="part-two col-lg-4">
@@ -101,13 +101,13 @@ const BlogIndex = ({ data, location }) => {
                                   fill="black" />
                           </svg>
                       </a>
-                      <a href="youtube.com" className="social btn"><svg width={8} height={13} viewBox="0 0 8 13"
+                      {/* <a href="youtube.com" className="social btn"><svg width={8} height={13} viewBox="0 0 8 13"
                               fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path
                                   d="M6.08148 2.02078H7.68986C7.83783 2.02078 7.95792 1.90762 7.95792 1.76819V0.252598C7.95792 0.113164 7.83783 0 7.68986 0H6.08148C4.45594 0 3.13279 1.24632 3.13279 2.77858V4.54676H1.25634C1.10837 4.54676 0.988281 4.65993 0.988281 4.79936V6.31495C0.988281 6.45438 1.10837 6.56755 1.25634 6.56755H3.13279V11.8721C3.13279 12.0115 3.25288 12.1247 3.40085 12.1247H5.00923C5.1572 12.1247 5.27729 12.0115 5.27729 11.8721V6.56755H7.15373C7.269 6.56755 7.3714 6.49783 7.40839 6.39477L7.94452 4.87918C7.97186 4.80239 7.95792 4.71752 7.90753 4.65134C7.85659 4.58566 7.77617 4.54676 7.68986 4.54676H5.27729V2.77858C5.27729 2.36078 5.6381 2.02078 6.08148 2.02078Z"
                                   fill="black" />
                           </svg>
-                      </a>
+                      </a> */}
                       <a href="youtube.com" className="social btn"><svg width={14} height={11} viewBox="0 0 14 11"
                               fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path
