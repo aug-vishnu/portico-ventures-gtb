@@ -32,4 +32,5 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'content', name: 'title', widget: 'markdown' }
+      - { label: 'title', name: 'title', widget: 'string' }
+      - { label: 'content', name: 'content', widget: 'markdown' }
