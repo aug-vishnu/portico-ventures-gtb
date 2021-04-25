@@ -21,7 +21,7 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'contact'
+  - name: 'contact2'
     label: 'Conatct Page'
     files: 
         - label: 'Content'
