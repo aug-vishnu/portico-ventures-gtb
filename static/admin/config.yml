@@ -6,27 +6,25 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'blogoo'
-    label: 'Blogoo'
-    folder: 'content/blog'
+  - name: 'contact'
+    label: 'Contact Page'
+    folder: 'content/contact-page'
     create: true
-    slug: 'index'
+    slug: 'contact'
     media_folder: ''
     public_folder: ''
-    path: '{{title}}/index'
+    path: '{{title}}/contact'
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'contact'
-    label: 'Conatct Page'
-    files: 
-        - label: 'Content'
-          name: 'content'
-          file: "site/content/contact.json"
-          fields:
-            - { label: 'title', name: 'title', widget: 'string' }
-            - { label: 'content', name: 'content', widget: 'markdown' }
+        - { label: 'title', name: 'title', widget: 'string' }
+        - { label: 'content', name: 'content', widget: 'markdown' }
+  # - name: 'navbar'
+  #   label: 'Nav links'
+  #   files: 
+  #       - label: 'Content'
+  #         name: 'content'
+  #         file: "site/content/navbar.json"
+  #         fields:
+  #           - { label: 'title', name: 'title', widget: 'string' }
+  #           - { label: 'slug', name: 'slug', widget: 'string' }
