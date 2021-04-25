@@ -9,6 +9,11 @@ if (typeof window !== `undefined`) {
     });
 
 
+    $(".navbar-toggler").click(function () {
+        $('.navbar-collapse').toggleClass('show');
+        console.log("sf");
+    });
+
     // Function for scrolling fade effect 
     $(function () { // $(document).ready shorthand
         $('.monster').fadeIn('slow');

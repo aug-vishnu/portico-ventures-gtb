@@ -32,7 +32,6 @@ collections:
             - { label: 'para-one', name: 'para-one', widget: 'text' }
             - { label: 'heading-two', name: 'heading-two', widget: 'text' }
             - { label: 'heading-three', name: 'heading-three', widget: 'text' }
-            - { label: 'para-one', name: 'para-one', widget: 'text' }
             - { label: 'para-two', name: 'para-two', widget: 'text' }
             - { label: 'para-three', name: 'para-three', widget: 'text' }
             - { label: 'para-four', name: 'para-four', widget: 'text' }

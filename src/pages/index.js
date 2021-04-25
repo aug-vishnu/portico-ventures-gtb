@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import content from "../../site/content/contact.json"
+import { Dropdown } from 'react-bootstrap'
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -13,12 +14,28 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout>
       <Seo title="Home" />
+      <body className="hero">
       <header className="main-header">
           <div className="nav">
               <nav id="navBar" className="navbar fixed-top navbar-expand-lg main-nav">
                   <a className="navbar-brand" href="/">
                       <img src={'logo.png'} alt="portico_ventures" />
                   </a>
+                    {/* <Dropdown className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
+                      aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <Dropdown.Toggle >
+                            <span className="icon-bar icon-bar-1" />
+                            <span className="icon-bar icon-bar-2" />
+                            <span className="icon-bar icon-bar-3" />
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu className=" collapse navbar-collapse navbar-nav ml-auto text-uppercase f1">
+                            <Dropdown.Item href="/about/">CONTACT</Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                        </Dropdown.Menu>
+                        <div className="collapse navbar-collapse" id="mainMenu">
+                        </div>
+                    </Dropdown> */}
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
                       aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
                       <span className="icon-bar icon-bar-1" />
@@ -139,6 +156,7 @@ const BlogIndex = ({ data, location }) => {
               </div>
           </div>
       </footer>
+      </body>
     </Layout>
   )
 }
