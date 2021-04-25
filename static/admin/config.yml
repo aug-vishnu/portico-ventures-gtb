@@ -23,14 +23,10 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'contact'
     label: 'Conatct Page'
-    folder: 'content/contact'
-    create: true
-    slug: 'contact'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/contact'
-    editor:
-      preview: false
-    fields:
-      - { label: 'title', name: 'title', widget: 'string' }
-      - { label: 'content', name: 'content', widget: 'markdown' }
+    files: 
+        - label: 'Content'
+          name: 'content'
+          file: "site/content/contact.json"
+          fields:
+            - { label: 'title', name: 'title', widget: 'string' }
+            - { label: 'content', name: 'content', widget: 'markdown' }
