@@ -6,19 +6,19 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'contact'
-    label: 'Contact Page'
-    folder: 'content/contact'
-    create: true
-    slug: 'contact'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/contact'
-    editor:
-      preview: false
-    fields:
-        - { label: 'title', name: 'title', widget: 'string' }
-        - { label: 'content', name: 'content', widget: 'markdown' }
+  # - name: 'contact'
+  #   label: 'Contact Page'
+  #   folder: 'content/contact'
+  #   create: true
+  #   slug: 'contact'
+  #   media_folder: ''
+  #   public_folder: ''
+  #   path: '{{title}}/contact'
+  #   editor:
+  #     preview: false
+  #   fields:
+  #       - { label: 'title', name: 'title', widget: 'string' }
+  #       - { label: 'content', name: 'content', widget: 'markdown' }
   - name: 'contact'
     label: 'Contact Page'
     files: 
