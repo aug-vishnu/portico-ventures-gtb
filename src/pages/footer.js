@@ -1,9 +1,6 @@
 import * as React from "react"
-import { Link, } from "gatsby"
 
 import Layout from "../components/layout"
-import Seo from "../components/seo"
-import Content from '../../site/content/navbar.json'
 import CFooter from '../../site/content/settings.json'
 
 const Footer = () => {
@@ -12,7 +9,7 @@ const Footer = () => {
       <footer>
           <div className="footer-top">
               <div className="part-one col-lg-4">
-                  <div className="footer-logo mt-2"> <img src={'logo_b.png'} alt="portico_ventures" />
+                  <div className="footer-logo mt-2"> <img src={'/logo_b.png'} alt="portico_ventures" />
                   </div>
                   {/* <div className="footer-number mt-2">+xx-xxxxx-xxxx</div> */} 
                   <div className="footer-mail mt-2">{CFooter["email"]}</div>
