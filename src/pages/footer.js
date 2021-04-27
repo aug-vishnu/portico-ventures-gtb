@@ -6,13 +6,14 @@ import CFooter from '../../site/content/settings.json'
 const Footer = () => {
   return (
     <Layout>
+    <div className="space"></div>
       <footer>
           <div className="footer-top">
               <div className="part-one col-lg-4">
                   <div className="footer-logo mt-2"> <img src={'/logo_b.png'} alt="portico_ventures" />
                   </div>
                   {/* <div className="footer-number mt-2">+xx-xxxxx-xxxx</div> */} 
-                  <div className="footer-mail mt-2">{CFooter["email"]}</div>
+                  <div className="footer-mail mt-4">{CFooter["email"]}</div>
               </div>
               <div className="part-two col-lg-4">
                   <div className="footer-social">
@@ -75,9 +76,9 @@ const Footer = () => {
               </div> */}
           </div>
           <hr />
-          <div className="footer-bottom-index">
+          <div className="footer-bottom-index ">
               <div className="footer-copyright ">
-                  2021 PORTICO. All Rights reserved
+                  {CFooter["footer_text"]}
               </div>
           </div>
       </footer>

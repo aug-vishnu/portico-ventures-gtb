@@ -15,18 +15,13 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-div {
-    -webkit-animation: pulse 2.5s ease-in;
-    animation: pulse 2.5s ease-in;
-}
-
 .hero {
     animation: none !important;
     background-image: linear-gradient(rgba(0, 5, 23, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%), url(../static/bagr.png) !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
-    background-size: 100% 100%;
+    background-size: 100% 150%;
 }
 
 .floatingNav {
@@ -129,14 +124,21 @@ header .banner {
     margin: 0 5em;
 }
 
+header:not(.nav) {
+    padding-bottom: 30vh;
+    -webkit-animation: pulse 2.5s ease-in;
+    animation: pulse 1.7s ease-in;
+}
+
 /*   Footer Section Starts  */
 footer {
-    margin-top: 15em;
+    /* margin-top: 15em; */
     padding: 2em 6em;
     color: #000;
     background-color: #fff;
     font-family: "Montserrat", sans-serif;
 }
+
 
 footer .footer-heading {
     font-weight: 600;
