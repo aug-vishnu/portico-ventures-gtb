@@ -124,10 +124,10 @@ header .banner {
     margin: 0 5em;
 }
 
-header:not(.nav) {
+header {
     padding-bottom: 30vh;
-    -webkit-animation: pulse 1.7s ease-in;
-    animation: pulse 1.7s ease-in;
+    -webkit-animation: pulse 1.5s ease-in;
+    animation: pulse 1.5s ease-in;
 }
 
 /*   Footer Section Starts  */
