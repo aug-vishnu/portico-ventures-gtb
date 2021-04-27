@@ -1,15 +1,18 @@
 import $ from 'jquery'
-$(".navbar-toggler").click(function () {
-    $('.navbar-collapse').toggleClass('show');
-    console.log("sf");
-});
+// document.getElementsByClassName('.navbar-toggler').addEventListener("click", function () {
+//     console.log("ghhhhhhhhhhhh");
+// });
+
 if (typeof window !== `undefined`) {
+    $(".navbar-toggler").click(function () {
+        $('.navbar-collapse').toggleClass('show');
+        console.log("sf");
+    });
     // Fun for contact page
     $("form").submit(function () {
         // alert("Submitted");
         $('#sucessModal').modal('show');
         document.location.href = "/about.html";
-        console.log("sf");
     });
 
 
