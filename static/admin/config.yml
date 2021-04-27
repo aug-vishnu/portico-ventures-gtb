@@ -52,6 +52,8 @@ collections:
             - { label: 'extras-two', name: 'extras-two', widget: 'text', required: false}
             - { label: 'extras-three', name: 'extras-three', widget: 'text', required: false}
             
+            - { label: 'extras', name: 'extras', widget: 'markdown', required: false}
+            
   - name: 'contact'
     label: 'Contact Page'
     files: 
