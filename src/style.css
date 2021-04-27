@@ -274,7 +274,7 @@ footer .footer-bottom-index {
 }
 
 .about-section .container {
-    padding: 6em 12em 3em 12em;
+    padding: 6em 12em 1em 12em;
 }
 
 .about-section #content-part h1 {
@@ -282,11 +282,19 @@ footer .footer-bottom-index {
 }
 
 .about-section #content-part h2 {
-    font-size: 1em;
+    font-size: 1.6em;
+    padding-top: 1.3em;
+    font-weight: 400;
 }
 
+.about-section #content-part .sub-head {
+    font-size: 1.4em;
+    padding-top: 1.3em;
+}
+
+
 .about-section #content-part p {
-    padding-top: 1em;
+    /* padding-top: 1em; */
     line-height: 30px;
 }
 

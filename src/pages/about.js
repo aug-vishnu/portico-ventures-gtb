@@ -47,14 +47,14 @@ const About = () => {
             <div id="content-part" className="container mt-5">
                 {/* <h2 class="text-uppercase mb-3">about portico </h2> */}
                 <h1>{Content["heading-one"]}</h1>
-                <p>{Content["para-one"]}</p>
+                <p className="sub-head">{Content["para-one"]}</p>
             </div>
             <hr />
             <div id="content-part" className="pt-2 container">
-                <h2 className="vent text-uppercase mb-3">{Content["sub-heading-one"]}</h2>
-                <p className="vent">{Content["para-two"]}</p>
-                <p className="vent">{Content["para-three"]}</p>
-                <p className="vent">{Content["para-four"]}</p>
+                <h2 className="text-uppercase mb-3">{Content["sub-heading-one"]}</h2>
+                <p className="">{Content["para-two"]}</p>
+                <p className="">{Content["para-three"]}</p>
+                <p className="">{Content["para-four"]}</p>
 
                 <h2 className="vent text-uppercase mb-3">{Content["sub-heading-two"]}</h2>
                 <p className="vent">{Content["para-five"]}</p>
