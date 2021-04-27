@@ -1,13 +1,11 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import content from "../../site/content/contact.json"
-import { Dropdown } from 'react-bootstrap'
 import Content from '../../site/content/home.json'
 import CFooter from '../../site/content/settings.json'
+import Footer from "./footer"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -76,8 +74,8 @@ const BlogIndex = ({ data, location }) => {
               {/* Section Home Ends */}
           </div>
       </header>
-      <Footer></Footer>
       </body>
+      <Footer></Footer>
     </Layout>
   )
 }
