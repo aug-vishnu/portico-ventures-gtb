@@ -6,20 +6,20 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'portfolio'
-    label: 'Portfolio Page'
-    folder: 'content/portfolio'
-    create: true
-    slug: 'portfolio'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/portfolio'
-    editor:
-      preview: false
-    fields:
-        - { label: 'title', name: 'title', widget: 'string' }
-        - { label: 'logo', name: 'logo', widget: 'image' }
-        - { label: 'link', name: 'link', widget: 'string' }
+  # - name: 'portfolio'
+  #   label: 'Portfolio Page'
+  #   folder: 'content/portfolio'
+  #   create: true
+  #   slug: 'portfolio'
+  #   media_folder: ''
+  #   public_folder: ''
+  #   path: '{{title}}/portfolio'
+  #   editor:
+  #     preview: false
+  #   fields:
+  #       - { label: 'title', name: 'title', widget: 'string' }
+  #       - { label: 'logo', name: 'logo', widget: 'image' }
+  #       - { label: 'link', name: 'link', widget: 'string' }
 
   - name: 'about'
     label: 'About Page'
