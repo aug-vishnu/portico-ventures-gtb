@@ -126,7 +126,7 @@ header .banner {
 
 header:not(.nav) {
     padding-bottom: 30vh;
-    -webkit-animation: pulse 2.5s ease-in;
+    -webkit-animation: pulse 1.7s ease-in;
     animation: pulse 1.7s ease-in;
 }
 
