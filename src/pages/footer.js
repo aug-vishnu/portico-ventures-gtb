@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div> */}
-            <div className="part-three">
+            {/* <div className="part-three">
                 <div className="footer-quicklinks footer-heading mb-3">Get in Touch</div>
                 <div className="footer-cta">
                 <div className="btn-group">
@@ -38,7 +38,7 @@ const Footer = () => {
                     <button className="btn btn-secondary btn-two"><img src={'/ic Arrow Go.png'} alt="logo"/></button>
                 </div>
                 </div>
-            </div>
+            </div> */}
             </div>
             <hr />
             <div className="footer-bottom">

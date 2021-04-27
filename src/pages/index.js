@@ -53,7 +53,7 @@ const BlogIndex = ({ data, location }) => {
                             <Link to="/portfolio/">PORTFOLIO</Link>
                         </li> */}
                         <li>
-                            <a href={CFooter["job_link"]}>jobs</a>
+                            <a href={CFooter["jobs_link"]}>jobs</a>
                         </li>
                         <li>
                             <Link to="/contact/">CONTACT</Link>
@@ -133,19 +133,16 @@ const BlogIndex = ({ data, location }) => {
                       </div>
                   </div> */}
               </div>
-              <div className="part-three col-lg-4">
+              {/* <div className="part-three col-lg-4">
                   <div className="footer-quicklinks footer-heading mb-3">Get in Touch</div>
                   <div className="footer-cta">
                       <div className="btn-group">
-                          {/* <div class="input-group-append">
-                              <div class="input-group-text" id="btnGroupAddon">@</div>
-                          </div> */}
                           <input type="text" className="form-control btn-one" placeholder="Get product updates"
                               aria-label="Username" aria-describedby="basic-addon1" />
                           <button className="btn btn-secondary btn-two"><img src={'ic Arrow Go.png'} alt="logo"/></button>
                       </div>
                   </div>
-              </div>
+              </div> */}
           </div>
           <hr />
           <div className="footer-bottom-index">

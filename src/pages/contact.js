@@ -32,7 +32,7 @@ const Contact = () => {
                             <Link to="/portfolio/">PORTFOLIO</Link>
                         </li> */}
                         <li>
-                            <a href={CFooter["job_link"]}>jobs</a>
+                            <a href={CFooter["jobs_link"]}>jobs</a>
                         </li>
                         <li>
                             <Link className="active" to="/contact/">CONTACT</Link>
@@ -59,10 +59,10 @@ const Contact = () => {
                                 <img src={'/Vector-1.svg'} alt="logo"/>
                                 <p>{CFooter["email"]}</p>
                             </div>
-                            <div className="location info">
+                            {/* <div className="location info">
                                 <img src={'/Vector.svg'} alt="logo"/>
                                 <p>{CFooter["address"]}</p>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="contact-social mt-5">
                             <a href={CFooter["linkedin"]} className="social btn">

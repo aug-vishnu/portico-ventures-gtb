@@ -31,7 +31,7 @@ const Portfolio = () => {
                             <Link className="active" to="/portfolio/">PORTFOLIO</Link>
                         </li>
                         <li>
-                            <a href={CFooter["job_link"]}>jobs</a>
+                            <a href={CFooter["jobs_link"]}>jobs</a>
                         </li>
                         <li>
                             <Link to="/contact/">CONTACT</Link>
