@@ -28,19 +28,30 @@ collections:
           name: 'content'
           file: "site/content/about.json"
           fields:
-            - { label: 'title', name: 'title', widget: 'string' }
-            - { label: 'slug', name: 'slug', widget: 'string' }
-            - { label: 'heading-one', name: 'heading-one', widget: 'text' }
-            - { label: 'para-one', name: 'para-one', widget: 'text' }
-            - { label: 'heading-two', name: 'heading-two', widget: 'text' }
-            - { label: 'heading-three', name: 'heading-three', widget: 'text' }
-            - { label: 'para-two', name: 'para-two', widget: 'text' }
-            - { label: 'para-three', name: 'para-three', widget: 'text' }
-            - { label: 'para-four', name: 'para-four', widget: 'text' }
-            - { label: 'para-five', name: 'para-five', widget: 'text' }
-            - { label: 'para-six', name: 'para-six', widget: 'text' }
-            - { label: 'para-seven', name: 'para-seven', widget: 'text' }
+            - { label: 'title', name: 'title', widget: 'string' , required: false}
+            - { label: 'slug', name: 'slug', widget: 'string' , required: false}
+            - { label: 'heading-one', name: 'heading-one', widget: 'text' , required: false}
+            - { label: 'para-one', name: 'para-one', widget: 'text' , required: false}
 
+            - { label: 'sub-heading-one', name: 'sub-heading-one', widget: 'text' , required: false}
+            - { label: 'para-two', name: 'para-two', widget: 'text' , required: false}
+            - { label: 'para-three', name: 'para-three', widget: 'text' , required: false}
+            - { label: 'para-four', name: 'para-four', widget: 'text' , required: false}
+            
+            - { label: 'sub-heading-two', name: 'sub-heading-two', widget: 'text' , required: false}
+            - { label: 'para-five', name: 'para-five', widget: 'text' , required: false}
+            - { label: 'para-six', name: 'para-six', widget: 'text' , required: false}
+            - { label: 'para-seven', name: 'para-seven', widget: 'text' , required: false}
+
+            - { label: 'sub-heading-three', name: 'sub-heading-three', widget: 'text' , required: false}
+            - { label: 'para-eight', name: 'para-eight', widget: 'text' , required: false}
+            - { label: 'para-nine', name: 'para-nine', widget: 'text' , required: false}
+            - { label: 'para-ten', name: 'para-ten', widget: 'text' , required: false}
+
+            - { label: 'extras-one', name: 'extras-one', widget: 'text', required: false}
+            - { label: 'extras-two', name: 'extras-two', widget: 'text', required: false}
+            - { label: 'extras-three', name: 'extras-three', widget: 'text', required: false}
+            
   - name: 'contact'
     label: 'Contact Page'
     files: 
