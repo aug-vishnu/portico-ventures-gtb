@@ -127,12 +127,12 @@ const Contact = () => {
                 <div className="header">Investor Relations
                 </div>
                 <p>You can email our Investor Relations team at:</p>
-                <strong>IR@portico.com.com</strong>
+                <strong>IR@portico.com</strong>
             </div>
             <div className="vent part-two">
                 <div className="header">Press and Media Inquiries</div>
                 <p> Members of the press can email us at:</p>
-                <strong>Press@portico.com.com</strong>
+                <strong>Press@portico.com</strong>
             </div>
             <div className="vent part-three">
                 <div className="header">Data Providers</div>
