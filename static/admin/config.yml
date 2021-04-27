@@ -78,6 +78,5 @@ collections:
             - { label: 'linkedin', name: 'linkedin', widget: 'string' }
             - { label: 'twitter', name: 'twitter', widget: 'string' }
             - { label: 'github', name: 'github', widget: 'string' }
-            - { label: 'github', name: 'github', widget: 'string' }
             - { label: 'address', name: 'address', widget: 'text' }
             - { label: 'footer_text', name: 'footer_text', widget: 'string' }
