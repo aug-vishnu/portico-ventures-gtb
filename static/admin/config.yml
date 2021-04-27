@@ -81,4 +81,5 @@ collections:
             - { label: 'github', name: 'github', widget: 'string' }
             - { label: 'email', name: 'email', widget: 'string' }
             - { label: 'address', name: 'address', widget: 'text' }
+            - { label: 'jobs_link', name: 'jobs_link', widget: 'string' }
             - { label: 'footer_text', name: 'footer_text', widget: 'string' }
