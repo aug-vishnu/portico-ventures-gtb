@@ -61,12 +61,12 @@ collections:
           name: 'content'
           file: "site/content/contact.json"
           fields:
-            - { label: 'title', name: 'title', widget: 'string' }
-            - { label: 'slug', name: 'slug', widget: 'string' }
-            - { label: 'heading-one', name: 'heading-one', widget: 'text' }
-            - { label: 'para-one', name: 'para-one', widget: 'text' }
-            - { label: 'heading-two', name: 'heading-two', widget: 'text' }
-            - { label: 'para-two', name: 'para-two', widget: 'text' }
+            - { label: 'title', name: 'title', widget: 'string', required: false}
+            - { label: 'slug', name: 'slug', widget: 'string', required: false}
+            - { label: 'heading-one', name: 'heading-one', widget: 'text', required: false}
+            - { label: 'para-one', name: 'para-one', widget: 'text', required: false}
+            - { label: 'heading-two', name: 'heading-two', widget: 'text', required: false}
+            - { label: 'para-two', name: 'para-two', widget: 'text', required: false}
 
   - name: 'home'
     label: 'Home Page'
@@ -75,12 +75,12 @@ collections:
           name: 'content'
           file: "site/content/home.json"
           fields:
-            - { label: 'title', name: 'title', widget: 'string' }
-            - { label: 'slug', name: 'slug', widget: 'string' }
-            - { label: 'heading-one', name: 'heading-one', widget: 'text' }
-            - { label: 'heading-one-strong', name: 'heading-one-strong', widget: 'text' }
-            - { label: 'para-one', name: 'para-one', widget: 'text' }
-            - { label: 'para-two', name: 'para-two', widget: 'text' }
+            - { label: 'title', name: 'title', widget: 'string', required: false}
+            - { label: 'slug', name: 'slug', widget: 'string', required: false}
+            - { label: 'heading-one', name: 'heading-one', widget: 'text', required: false}
+            - { label: 'heading-one-strong', name: 'heading-one-strong', widget: 'text', required: false}
+            - { label: 'para-one', name: 'para-one', widget: 'text', required: false}
+            - { label: 'para-two', name: 'para-two', widget: 'text', required: false}
 
   - name: 'details'
     label: 'Site Settings'
@@ -89,10 +89,10 @@ collections:
           name: 'content'
           file: "site/content/settings.json"
           fields:
-            - { label: 'linkedin', name: 'linkedin', widget: 'string' }
-            - { label: 'twitter', name: 'twitter', widget: 'string' }
-            - { label: 'github', name: 'github', widget: 'string' }
-            - { label: 'email', name: 'email', widget: 'string' }
-            - { label: 'address', name: 'address', widget: 'text' }
-            - { label: 'jobs_link', name: 'jobs_link', widget: 'string' }
-            - { label: 'footer_text', name: 'footer_text', widget: 'string' }
+            - { label: 'linkedin', name: 'linkedin', widget: 'string', required: false}
+            - { label: 'twitter', name: 'twitter', widget: 'string', required: false}
+            - { label: 'github', name: 'github', widget: 'string', required: false}
+            - { label: 'email', name: 'email', widget: 'string', required: false}
+            - { label: 'address', name: 'address', widget: 'text', required: false}
+            - { label: 'jobs_link', name: 'jobs_link', widget: 'string', required: false}
+            - { label: 'footer_text', name: 'footer_text', widget: 'string', required: false}

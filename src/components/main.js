@@ -1,4 +1,8 @@
 import $ from 'jquery'
+$(".navbar-toggler").click(function () {
+    $('.navbar-collapse').toggleClass('show');
+    console.log("sf");
+});
 if (typeof window !== `undefined`) {
     // Fun for contact page
     $("form").submit(function () {
@@ -9,10 +13,6 @@ if (typeof window !== `undefined`) {
     });
 
 
-    $(".navbar-toggler").click(function () {
-        $('.navbar-collapse').toggleClass('show');
-        console.log("sf");
-    });
 
     // Function for scrolling fade effect 
     $(function () { // $(document).ready shorthand
