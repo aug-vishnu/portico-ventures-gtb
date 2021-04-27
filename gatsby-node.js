@@ -24,7 +24,6 @@ exports.createPages = async ({
             id
             fields {
               slug
-              content
             }
           }
         }
