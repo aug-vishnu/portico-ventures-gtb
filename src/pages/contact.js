@@ -57,7 +57,7 @@ const Contact = () => {
                             </div> */}
                             <div className="mail info">
                                 <img src={'/Vector-1.svg'} alt="logo"/>
-                                <p>{CFooter["email"]}</p>
+                                <a href={`mailto:${CFooter["email"]}`}>{CFooter["email"]}</a>
                             </div>
                             {/* <div className="location info">
                                 <img src={'/Vector.svg'} alt="logo"/>

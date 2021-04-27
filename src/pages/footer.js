@@ -10,10 +10,13 @@ const Footer = () => {
       <footer>
           <div className="footer-top">
               <div className="part-one col-lg-4">
+                  
                   <div className="footer-logo mt-2"> <img src={'/logo_b.png'} alt="portico_ventures" />
                   </div>
                   {/* <div className="footer-number mt-2">+xx-xxxxx-xxxx</div> */} 
-                  <div className="footer-mail mt-4">{CFooter["email"]}</div>
+                  <div className="footer-mail mt-4" >
+                  <a href={`mailto:${CFooter["email"]}`}>{CFooter["email"]}</a>
+                   </div>
               </div>
               <div className="part-two col-lg-4">
                   <div className="footer-social">

@@ -17,7 +17,7 @@ body {
 
 .hero {
     animation: none !important;
-    background-image: linear-gradient(rgba(0, 5, 23, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%), url(../static/bagr.png) !important;
+    background-image: linear-gradient(rgba(0, 5, 23, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(../static/bagr.png) !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
@@ -156,6 +156,11 @@ footer .footer-top {
     justify-content: space-between;
 }
 
+footer .footer-top img {
+    width: 60%;
+}
+
+
 footer .footer-links {
     display: flex;
     align-items: center;
@@ -221,6 +226,16 @@ footer .footer-bottom {
     justify-content: space-between;
     align-items: center;
     padding: 0.5em 0 0em 0;
+}
+
+footer .footer-mail a {
+    cursor: pointer;
+    color: #000000;
+}
+
+.mail a {
+    cursor: pointer;
+    color: #FFF;
 }
 
 footer .footer-bottom .footer-copyright {
@@ -495,6 +510,7 @@ footer .footer-bottom-index {
 .contact-section #contact-location #contact-mails .header {
     font-size: 1.2em;
     font-weight: 600;
+    width: 15em;
 }
 
 .contact-section #contact-location #contact-mails p {
@@ -781,6 +797,16 @@ footer .footer-bottom-index {
     footer {
         padding: 0;
         zoom: 0.9;
+    }
+
+    footer .footer-top img {
+        width: 100%;
+        padding: 0 4em;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center; */
     }
 
     footer .footer-top {
