@@ -3,8 +3,8 @@ import { Link, } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Content from '../../site/content/navbar.json'
 import Footer from "./footer"
+import Content from '../../site/content/about.json'
 import CFooter from '../../site/content/settings.json'
 
 
@@ -65,7 +65,7 @@ const About = () => {
                 <p className="vent">{Content["para-eight"]}</p>
                 <p className="vent">{Content["para-nine"]}</p>
                 <p className="vent">{Content["para-ten"]}</p>
-                
+
                 {/* <h1 className="vent">{Content["heading-three"]}</h1> */}
                 {/* <p className="vent">{Content["para-seven"]}</p> */}
             </div>
