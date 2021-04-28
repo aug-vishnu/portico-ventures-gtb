@@ -2,7 +2,8 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import CFooter from '../../site/content/settings.json'
-import '../components/main'
+// import '../components/main'
+
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
                   <a href={`mailto:${CFooter["email"]}`}>{CFooter["email"]}</a>
                    </div>
               </div>
-                <div className="footer-number mt-2">"Incorporated British Virgin"</div> 
+                <div className="footer-number mt-2">Incorporated British Virgin</div> 
               <div className="part-two col-lg-4">
                   <div className="footer-social">
                       <a href={CFooter["linkedin"]} className="social btn"><svg width={13} height={12} viewBox="0 0 13 12"

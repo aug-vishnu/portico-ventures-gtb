@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-import '../components/main'
+// import '../components/main'
+
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -18,7 +19,7 @@ const BlogIndex = ({ data, location }) => {
       <body className="hero">
       <header className="main-header">
           <div className="nav">
-              <nav id="navBar" className="navbar fixed-top navbar-expand-lg main-nav">
+              <nav id="navBar" className="navbar floatingNav fixed-top navbar-expand-lg main-nav">
                   <a className="navbar-brand" href="/">
                       <img src={'logo.png'} alt="portico_ventures" />
                   </a>

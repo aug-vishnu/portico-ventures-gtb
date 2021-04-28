@@ -6,7 +6,8 @@ import Seo from "../components/seo"
 import Footer from "./footer"
 import Content from '../../site/content/about.json'
 import CFooter from '../../site/content/settings.json'
-import '../components/main'
+// // import '../components/main'
+
 
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
       <Seo title="About" />
         <header className="main-header ">
             <div className="nav pt-4">
-            <nav id="navBar" className="navbar fixed-top navbar-expand-lg main-nav">
+            <nav id="navBar" className="navbar floatingNav fixed-top navbar-expand-lg main-nav">
                 <a className="navbar-brand" href="/">
                 <img src={'/logo.png'} alt="portico_ventures" />
                 </a>

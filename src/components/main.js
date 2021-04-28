@@ -23,7 +23,7 @@ if (typeof window !== `undefined`) {
     });
 
     $(document).ready(function () {
-        $('#navBar').addClass('floatingNav');
+        // $('#navBar').addClass('floatingNav');
 
         /* Every time the window is scrolled ... */
         $(document).scroll(function () {

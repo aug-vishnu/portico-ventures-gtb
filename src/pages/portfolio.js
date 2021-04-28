@@ -13,7 +13,7 @@ const Portfolio = () => {
       <Seo title="Portfolio" />
         <header className="main-header ">
             <div className="nav pt-4">
-            <nav id="navBar" className="navbar fixed-top navbar-expand-lg main-nav">
+            <nav id="navBar" className="navbar floatingNav fixed-top navbar-expand-lg main-nav">
                 <a className="navbar-brand" href="/">
                 <img src={'/logo.png'} alt="logo" alt="portico_ventures" />
                 </a>
