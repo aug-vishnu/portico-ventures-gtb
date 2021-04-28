@@ -23,10 +23,6 @@ body {
     opacity: 1;
 }
 
-body {
-    background-image: linear-gradient(180deg, #161A25 0%, #0F0F0F 100%) !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .hero {
     animation: none !important;
@@ -37,8 +33,14 @@ body {
     background-size: 100% 100%;
 }
 
+body,
+.bgr {
+    background-image: linear-gradient(180deg, #161A25 0%, #0F0F0F 100%) !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .floatingNav {
-    background-color: #111521 !important;
+    background-color: #111521;
     box-shadow: 0px 6px 3px #101218;
 }
 

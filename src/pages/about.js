@@ -14,7 +14,7 @@ const About = () => {
   return (
     <Layout>
       <Seo title="About" />
-        <header className="main-header ">
+        <header className="main-header bgr">
             <div className="nav pt-4">
             <nav id="navBar" className="navbar floatingNav fixed-top navbar-expand-lg main-nav">
                 <a className="navbar-brand" href="/">
