@@ -681,8 +681,8 @@ footer .footer-bottom-index {
         background-image: linear-gradient(rgba(0, 5, 23, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(../static/bagr.jpg) !important;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-position: center center;
-        background-size: 200% 100%;
+        background-position: center top;
+        background-size: 300% 100%;
     }
 
 
