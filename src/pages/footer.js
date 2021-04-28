@@ -2,6 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import CFooter from '../../site/content/settings.json'
+import '../components/main'
 
 const Footer = () => {
   return (

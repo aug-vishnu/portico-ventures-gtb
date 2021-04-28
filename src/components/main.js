@@ -2,7 +2,6 @@ import $ from 'jquery'
 // document.getElementsByClassName('.navbar-toggler').addEventListener("click", function () {
 //     console.log("ghhhhhhhhhhhh");
 // });
-
 if (typeof window !== `undefined`) {
     $(".navbar-toggler").click(function () {
         $('.navbar-collapse').toggleClass('show');
@@ -16,6 +15,7 @@ if (typeof window !== `undefined`) {
     });
 
 
+    console.log("Loadsedssssssssssssssssssss !");
 
     // Function for scrolling fade effect 
     $(function () { // $(document).ready shorthand
@@ -23,6 +23,7 @@ if (typeof window !== `undefined`) {
     });
 
     $(document).ready(function () {
+        $('#navBar').addClass('floatingNav');
 
         /* Every time the window is scrolled ... */
         $(document).scroll(function () {

@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 import Footer from "./footer"
 import Content from '../../site/content/about.json'
 import CFooter from '../../site/content/settings.json'
+import '../components/main'
 
 
 const About = () => {
