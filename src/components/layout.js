@@ -1,5 +1,5 @@
 import * as React from "react"
-import './main.js'
+import './main'
 
 const Layout = ({ location, title, children }) => {
 

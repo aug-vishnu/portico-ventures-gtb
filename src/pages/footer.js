@@ -9,15 +9,14 @@ const Footer = () => {
     <div className="space"></div>
       <footer>
           <div className="footer-top">
-              <div className="part-one col-lg-4">
-                  
+              <div className="part-one d-flex flex-column align-items-center justify-content-center col-lg-4">
                   <div className="footer-logo mt-2"> <img src={'/logo_b.png'} alt="portico_ventures" />
                   </div>
-                  {/* <div className="footer-number mt-2">+xx-xxxxx-xxxx</div> */} 
                   <div className="footer-mail mt-4" >
                   <a href={`mailto:${CFooter["email"]}`}>{CFooter["email"]}</a>
                    </div>
               </div>
+                <div className="footer-number mt-2">"Incorporated British Virgin"</div> 
               <div className="part-two col-lg-4">
                   <div className="footer-social">
                       <a href={CFooter["linkedin"]} className="social btn"><svg width={13} height={12} viewBox="0 0 13 12"
