@@ -5,8 +5,11 @@ html {
     height: 100%;
 }
 
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+
 body {
-    overflow: auto;
     height: 100%;
     padding-top: 0px !important;
     overflow-x: hidden;
