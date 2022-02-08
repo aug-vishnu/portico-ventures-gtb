@@ -49,9 +49,9 @@ const BlogIndex = ({ data, location }) => {
                         <li>
                             <Link to="/about/">ABOUT</Link>
                         </li>
-                        {/* <li>
+                        <li>
                             <Link to="/portfolio/">PORTFOLIO</Link>
-                        </li> */}
+                        </li>
                         <li>
                             <a href={CFooter["jobs_link"]}>jobs</a>
                         </li>
